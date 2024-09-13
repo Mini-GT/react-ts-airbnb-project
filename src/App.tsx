@@ -1,7 +1,11 @@
+import { Navbar } from "./components/Navbar"
+import { Card } from "./components/Card"
+
 function App() {
   return (
     <>
-      <div className="bg-red-500">Hi</div>
+      <Navbar/>
+      <Card />
     </>
   )
 }
