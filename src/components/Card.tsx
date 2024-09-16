@@ -1,7 +1,7 @@
 export function Card() {
   return (
     <div className="mx-4 w-1/3 mt-10">
-      <img className="" src="/image.png" alt="image" />
+      <img className="" src="/katie-zaferes.png" alt="image" />
       <div className="flex gap-1 text-8">
         <img className="w-4" src="/star.svg" alt="star" />
         <div>5.0 (6) • USA</div>
