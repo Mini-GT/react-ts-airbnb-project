@@ -36,7 +36,8 @@ export default function App() {
   )
 }
 
-/* <div className={`${cardStyle}`}>
+/* 
+<div className={`${cardStyle}`}>
     <img src="/challenge2-Imgs/fluffykins.png"/>
     <h3>Fluffykins</h3>
     <div className={`${infoGroupStyle}`}>
