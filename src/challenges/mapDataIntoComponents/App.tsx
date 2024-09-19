@@ -20,7 +20,7 @@ export default function App() {
   return (
     <div className="">
       <Navbar />
-      <div className="flex sm:flex-col md:flex-row border">
+      <div className="overflow-x-scroll flex border">
         {data.map((cardInfo: Data) => {
           return (
           <Card
@@ -31,6 +31,7 @@ export default function App() {
             country={cardInfo.location}
             title={cardInfo.title}
             price={cardInfo.price}
+            openSpots={cardInfo.openSpots}
           />
           )
         })}
