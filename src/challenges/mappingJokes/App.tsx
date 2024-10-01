@@ -8,6 +8,7 @@ type JestDataProps = {
 }
 
 export default function App() {
+
   return (
     <div>
       {jests.map((jest: JestDataProps) => {

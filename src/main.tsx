@@ -5,8 +5,8 @@ import { createRoot } from 'react-dom/client'
 // import App from './challenges/PracticingProps/App'
 // import App from './challenges/passingPropsToCard/App'
 // import { App } from './challenges/renderArrays/App'
-// import App from './challenges/mappingJokes/App'
-import App from './challenges/mapDataIntoComponents/App'
+import App from './challenges/mappingJokes/App'
+// import App from './challenges/mapDataIntoComponents/App'
 import './index.css'
 
 createRoot(document.getElementById('root')!).render(
